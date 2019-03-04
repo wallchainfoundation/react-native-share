@@ -3,12 +3,14 @@ package cl.json;
 import android.content.Intent;
 import android.content.ActivityNotFoundException;
 import android.net.Uri;
-import android.support.annotation.Nullable;
+
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.Callback;
+
+import androidx.annotation.Nullable;
 
 import java.sql.SQLOutput;
 import java.util.ArrayList;
